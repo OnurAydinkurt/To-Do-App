@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: 100vh;
+    width: 100vw;
+}
+
+.toDoList {
+    background-color: rgb(80, 78, 78);
+    border-radius: 15px;
+    box-shadow: 0 50px 70px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkblue;
+    letter-spacing: 1px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.enteredList{
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    width: 420px;
+    height: 50px;
+}
+.addList{
+    border:none;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.task{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.items{
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.items p{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.items.complated p{
+    text-decoration: line-through;
+    color: rgb(39, 38, 38);
+    font-weight: 600;
+}
+
+.itemsbtn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.itemsbtn i{
+    color: darkblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
