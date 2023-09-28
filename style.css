@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: 0;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    max-height: 300px;
+}
 body{
     display: flex;
     justify-content: center;
