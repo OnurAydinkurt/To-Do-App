@@ -4,6 +4,7 @@ let task = document.querySelector('.task');
 
 
 addBtn.addEventListener('click',() => {
+    
     if (input.value.trim() !=0){
         let newItem = document.createElement('div');
         newItem.classList.add('items');
@@ -16,9 +17,14 @@ addBtn.addEventListener('click',() => {
         `
         task.appendChild(newItem);
         input.value = '';
+        console.log(input.value);
+        localStorage.setItem('localStorage', JSON.stringify(input.value));
+
     } else{
         alert('Lütfen Bir Görev Giriniz.')
     }
+    
+    
 })
 
 task.addEventListener('click', (e)=>{
