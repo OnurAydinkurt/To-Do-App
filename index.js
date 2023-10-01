@@ -16,14 +16,12 @@ addBtn.addEventListener('click',() => {
               </div>
         `
         task.appendChild(newItem);
-        input.value = '';
-        console.log(input.value);
+               
         localStorage.setItem('localStorage', JSON.stringify(input.value));
 
     } else{
         alert('Lütfen Bir Görev Giriniz.')
     }
-    
     
 })
 
