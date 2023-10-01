@@ -89,7 +89,6 @@ body{
     color: rgb(39, 38, 38);
     font-weight: 600;
 }
-
 .itemsbtn{
     display: flex;
     align-items: center;
@@ -102,4 +101,3 @@ body{
     font-size: 20px;
     cursor: pointer;
 }
-
